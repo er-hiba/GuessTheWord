@@ -20,6 +20,7 @@ while word != text :
     for i in range(len(word)):
         if letter == word[i] :
             text[i] = letter
+            print(text)
     if text.count(letter) == 0 :
         n_attempts += 1
 
